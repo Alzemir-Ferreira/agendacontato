@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap");
+
+body {
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+input {
+  margin: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background-color: #4caf50;
+  font: bold;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
